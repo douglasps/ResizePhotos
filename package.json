@@ -1,0 +1,23 @@
+{
+  "name": "resize-photos-server",
+  "version": "1.0.0",
+  "description": "consome e expoe fotos redimensionadas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests --recursive --watch"
+  },
+  "keywords": [
+    "resize-photos"
+  ],
+  "author": "Douglas Pimentel Simões",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-things": "^0.2.0",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1",
+    "request": "^2.83.0",
+    "sharp": "^0.19.0"
+  }
+}
